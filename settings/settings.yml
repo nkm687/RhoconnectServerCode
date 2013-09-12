@@ -1,0 +1,23 @@
+:sources:
+
+:development:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292
+  :push_server: http://helo@localhost:8675/
+  :api_token: my-rhoconnect-token
+  :push_notify: true
+:test:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292
+  :push_server: http://helo@localhost:8675/
+  :api_token: my-rhoconnect-token
+  :push_notify: true
+:production:
+  :licensefile: settings/license.key
+  :redis: localhost:6379
+  :syncserver: http://localhost:9292
+  :push_server: http://helo@localhost:8675/
+  :api_token: my-rhoconnect-token
+  :push_notify: true
